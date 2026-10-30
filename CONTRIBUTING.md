@@ -76,7 +76,7 @@ We will attempt to assign value to an issue based on various criteria, including
 * Introduces a new capability
 * Time savings for installation
 * Customer request
-* Bug bounty
+* Code vulnerability
 
 ## Development Setup
 
@@ -140,7 +140,7 @@ If you are submitting a pull request, you can expect the following.
 
 ## Coding Style
 
-[Good code](http://engineering.intenthq.com/2015/03/what-is-good-code-a-scientific-definition/) is written so that is readable, understandable, covered by automated tests, not over complicated and does well what is intended to do.
+[Good code](https://intenthq.com/writing/what-is-good-code-a-scientific-definition) is written so that is readable, understandable, covered by automated tests, not over complicated and does well what is intended to do.
 
 - Follow the coding style of the existing code as much as possible
 - Write comments to explain why, not how (let the code do that).
