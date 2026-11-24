@@ -8,7 +8,11 @@ Please read the section below before you start, particularly if you are consider
 
 Nion Swift is specialized scientific software, originally developed for the operation of Nion electron microscopes and used to visualize, process, and analyze scientific data. The correctness of most changes — particularly anything touching the user interface, data model, file format, or acquisition workflow — depends on understanding how the application is actually used in practice. A change that looks reasonable in isolation is frequently wrong in ways that are only apparent to someone who works with the software regularly.
 
-For that reason, **we strongly prefer code contributions from people who use Nion Swift.** If you are not a user, the most valuable things you can contribute are clear bug reports and well-reasoned feature requests (see below). Please do not open code pull requests for software you do not use.
+For that reason, **we accept code contributions only from people who use Nion Swift or who work on behalf of its users**, such as a developer working for a lab which uses it. If neither applies to you, the most valuable things you can contribute are clear bug reports and well-reasoned feature requests (see below).
+
+### New Contributors
+
+Before we review code from a new contributor, we like to get to know them. If you haven't contributed to Nion Swift before, please get in touch with us using other channels before you open a pull request. Tell us about yourself and how you, or the users you work with, use the software. We may close a pull request from an author we haven't heard from, and invite them to introduce themselves first..
 
 ### AI-Assisted Contributions
 
@@ -123,6 +127,7 @@ If you are contributing source code, please be aware of the following decision p
 
 If you are submitting a pull request, you can expect the following.
 
+- If you are a new contributor, introduce yourself before you open a pull request. See [New Contributors](#new-contributors) above.
 - You should understand and be able to explain every line of your change. See [AI-Assisted Contributions](#ai-assisted-contributions) above — we will ask, and we will close pull requests the author cannot account for.
 - The Nion Swift code base has very specific code formatting and documentation requirements. At a minimum, your code should be well typed and pass `mypy` verification tool if they are enabled for the files you are changing.
 - The code base has purposely limited upstream requirements (e.g. numpy, scipy) and your code should typically not depend on any Python package not already included. This can be discussed on a case by case basis, but the bar is high for inclusion of a new dependency.
