@@ -12,7 +12,7 @@ For that reason, **we accept code contributions only from people who use Nion Sw
 
 ### New Contributors
 
-Before we review code from a new contributor, we like to get to know them. If you haven't contributed to Nion Swift before, please get in touch with us using other channels before you open a pull request. Tell us about yourself and how you, or the users you work with, use the software. We may close a pull request from an author we haven't heard from, and invite them to introduce themselves first..
+Before we review code from a new contributor, we like to get to know them. If you haven't contributed to Nion Swift before, please get in touch with us using other channels before you open a pull request. Tell us about yourself and how you, or the users you work with, use the software. We may close a pull request from an author we haven't heard from, and invite them to introduce themselves first.
 
 ### AI-Assisted Contributions
 
